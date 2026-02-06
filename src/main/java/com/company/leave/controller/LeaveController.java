@@ -10,7 +10,7 @@ import com.service.LeaveDaysCalc;
 
 @Controller
 public class LeaveController {
-	//http://localhost:8080/SpringMVC/applyLeave
+	//http://localhost:8080/SpringMVC/applyleave
 
 	@RequestMapping("/applyleave") //Maps URL to Method
 	public String showForm() {
